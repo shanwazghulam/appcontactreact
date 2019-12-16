@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/appcontact/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/appcontact/static/js/main.f0abae5e.chunk.js",
+    "main.js.map": "/appcontact/static/js/main.f0abae5e.chunk.js.map",
+    "runtime-main.js": "/appcontact/static/js/runtime-main.3b2458ff.js",
+    "runtime-main.js.map": "/appcontact/static/js/runtime-main.3b2458ff.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/appcontact/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.ac5637c4.chunk.js": "/appcontact/static/js/2.ac5637c4.chunk.js",
+    "static/js/2.ac5637c4.chunk.js.map": "/appcontact/static/js/2.ac5637c4.chunk.js.map",
+    "index.html": "/appcontact/index.html",
+    "precache-manifest.4969420bca5aca7e9388440cd3a46f34.js": "/appcontact/precache-manifest.4969420bca5aca7e9388440cd3a46f34.js",
+    "service-worker.js": "/appcontact/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/appcontact/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/appcontact/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.ac5637c4.chunk.js.LICENSE": "/appcontact/static/js/2.ac5637c4.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b2458ff.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.ac5637c4.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.f0abae5e.chunk.js"
+  ]
+}
