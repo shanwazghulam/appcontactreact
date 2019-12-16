@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./component/interface/Header";
+import List from "./component/contact/List";
+import AddContact from "./component/contact/AddContact";
+import About from "./component/pages/About";
+import Error from "./component/pages/Error";
+import { Provider } from "./context";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Provider>
+        <Router>
+          <div className="App">
+            <Header />
+            <div className="container">
+              {/* <AddContact /> */}
+              <Switch>
+                <Route exact path="/list" component={List} />
+                <Route exact path="/" component={List} />
+                <Route exact path="/add" component={AddContact} />
+                <Route exact path="/about" component={About} />
+                <Route component={Error} />
+              </Switch>
+            </div>
+          </div>
+        </Router>
+      </Provider>
+    );
+  }
 }
 
 export default App;
